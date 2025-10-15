@@ -1,4 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Flow+Circular&family=Martel+Sans&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:wght@500&display=swap');
+
 *{
   margin: 0;
   padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: plum;
+    font-family: "Poppins",sans-serif;
+}
+.container h2{
+    text-align: center;
+}
+.container{
+    background-color: #fff;
+    padding: 2rem;
+    border-radius:1rem;
+    min-width: 45vh;
+    width: 40vh;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    margin: 2rem 0 1rem 0;
+}
+ form p{
+    text-align: start;
+    padding:10px 0;
+}
+ form  input{
+    border:1px solid lightgrey;
+    border-radius:5px;
+    font-size:14px;
+    height: 3rem;
+    width: 300px;
+    padding:0 5px;
+    
+
+    
+}
+.btn button{
+    
+    align-items: flex-start;
+    height:3rem;
+    width: 315px;
+    padding:10px;
+    border: none;
+    border-radius:5px;
+    background-color: blue;
+    color: white;
+    padding:15px;
+    font-weight: 300;
+    
+    
+}
+.btn h2{
+    text-align: center;
+    font-size: 15px;
+    color: rgb(108, 102, 102);
+    font-weight: 100;
+}
+.icon button{
+    background: none;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    width: 155px;
+    height: 3rem;
+    padding:15px;
+    text-align: center;
+    font-size: 15px;
 }
